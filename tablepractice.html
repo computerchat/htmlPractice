@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Pratice -1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <style>
+        table{
+            border-color: #f00;
+        }
+        th{
+          font-size: 14px; 
+          font-weight: 400; 
+          font-family: 'Vina Sans', sans-serif;
+        }
+        td{
+          font-size: 10px; 
+          font-weight: bold; 
+        }
+        .fontsize_10{
+            font-size: 24px;
+            font-weight: bold;
+            color: blue;
+        }
+        .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.total{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+    font-style: obliquef;
+}
+        </style>
+        <div class="material-symbols-outlined">
+            settings
+            </div>
+        <table border="1" width="100%" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th rowspan="2">SNo</th>
+                    <th colspan="2">Schedule</th>
+                    <th>Contact No.</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                    <!-- <th>&nbsp;2</th> -->
+                    <th>Teacher</th>
+                    <th>Class Time</th>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="fontsize_10">1</td>
+                    <td>Ramesh</td>
+                    <td>9:30AM</td>
+                    <td>564565433434</td>
+                    <td align="right">1000</td>
+                </tr>
+                <tr>
+                    <td class="fontsize_10">1</td>
+                    <td>Ramesh</td>
+                    <td>9:30AM</td>
+                    <td>564565433434</td>
+                    <td align="right">2000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ramesh</td>
+                    <td>9:30AM</td>
+                    <td>564565433434</td>
+                    <td align="right">10000</td>
+                </tr>
+                <tr>
+                    <td colspan="3">&nbsp;</td>
+                    <!-- <td>Ramesh</td> -->
+                    <!-- <td>9:30AM</td> -->
+                    <td align="right" class="total">TOTAL</td>
+                    <td class="total" align="right" s>13000</td>
+                </tr>
+
+            </tbody>
+            
+        </table>
+</body>
+</html>
