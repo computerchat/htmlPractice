@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table practice7</title>
+    <style>
+        .borderbox{
+            background-color: rgba(229, 223, 223, 0.79);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h3 text align="center" > A Complex table</h3>
+    <table border="1" width="50%" cellspacing="0" cellpadding="7" align="center" >
+        <tr>
+            <td class="borderbox" colspan="3">Invoice #123456789</td>
+            <!-- <td colspan="2">&nbsp;</td> -->
+            <!-- <td>15 September 2020</td> -->
+            <td class="borderbox">14 January 2025</td>
+        </tr>
+        <tr>
+            <td colspan="2">Pay to : Acme Billing Co. 123 Main St. Cityville, Na 12345</td>
+            <!-- <td >Customer John Smith 321 Willow Way Southest Northwestershire, MA54321</td> -->
+            <td colspan="2">Customer John Smith 321 Willow Way Southest Northwestershire, MA54321</td>
+            <!-- <td>Customer John Smith 321 Willow Way Southest Northwestershire, MA54321</td> -->
+        </tr>
+        <tr>
+            <td class="borderbox">Name / Description</td>
+            <td class="borderbox">Qty.</td>
+            <td class="borderbox">@</td>
+            <td class="borderbox">Cost</td>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr >
+            <td>Staples</td>
+            <td>100</td>
+            <td>1</td>
+            <td>100</td>
+        </tr>
+        <tr >
+            <td colspan="3" class="borderbox">Subtotal</td>
+            <!-- <td>200</td> -->
+            <!-- <td>2</td> -->
+            <td class="borderbox">110</td>
+        </tr>
+        <tr >
+            <td colspan="2" class="borderbox">Tax</td>
+            <!-- <td>2</td> -->
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>        
+        <tr >
+            <td colspan="3" class="borderbox">Grand Total</td>
+            <!-- <td>200</td> -->
+            <!-- <td>2</td> -->
+            <td class="borderbox">$118.90</td>
+        </tr>
+
+    </table>
+</body>
+</html>
